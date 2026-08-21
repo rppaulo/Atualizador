@@ -1,0 +1,11 @@
+<Application x:Class="Atulizador.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnMainWindowClose">
+    <Application.Resources>
+        <!-- A UI é majoritariamente construída via código-behind (igual ao original em
+             customtkinter), então este dicionário fica enxuto — só o essencial para o
+             tema claro padrão da janela. -->
+        <SolidColorBrush x:Key="BgBrush" Color="#F4F6FA"/>
+    </Application.Resources>
+</Application>
